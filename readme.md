@@ -30,10 +30,10 @@ Make sure you have this in your `<head>`:
 	// -->
 	</script>
 	
-This just assigns the profiler overlay to a hotkey, in this case `p` is assigned to open the profiler. If you don't want to include it, then you can always open up Firebug and call jQuery.displayProfiler(); via the console.
+This just assigns the profiler overlay to a hotkey, in this case `p` is assigned to open the profiler. If you don't want to include it, then you can always open up Firebug and call `jQuery.displayProfile();` via the console.
 
 Copyright
 ---------
 
-Facebox is &copy; [defunkt](http://www.github.com/defunkt) &amp; jQueryProfiler is &copy; [jeresig](http://www.github.com/jeresig)
-Comet brought to you in party by [me](http://www.github.com/marksands)
+Facebox is &copy;[defunkt](http://www.github.com/defunkt) &amp; jQueryProfiler is &copy;[jeresig](http://www.github.com/jeresig)
+Comet brought to you in part by [me](http://www.github.com/marksands)
