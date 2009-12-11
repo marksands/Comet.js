@@ -1,10 +1,23 @@
+Comet
+=====
 
-	<link rel="stylesheet" href="js/facebox/facebox.css" type="text/css" />
-	<script src="js/facebox/facebox.js"></script>
-	<script src="js/jQueryProfiler.js"></script>
+Facebox
+-------
+
+Grab a copy of defunkt's [facebox](http://github.com/defunkt/facebox) and make sure you include it in your app.
+
+Script
+------
+
+Make sure you have this in your `<head>`:
+
+	<link rel="stylesheet" href="facebox/facebox.css" type="text/css" />
+	<script src="facebox/facebox.js"></script>
+	<script src="jQueryProfiler.js"></script>
+	
+	<!-- This part's optional -->
 	<script type="text/javascript">
 		<!--
-		// this is going to be in the sample code :)
 			$(document).keypress(function(e){
 					if (!e)
 						e = window.event;
@@ -16,3 +29,11 @@
 			});	
 	// -->
 	</script>
+	
+This just assigns the profiler overlay to a hotkey, in this case `p` is assigned to open the profiler. If you don't want to include it, then you can always open up Firebug and call jQuery.displayProfiler(); via the console.
+
+Copyright
+---------
+
+Facebox is &copy; [defunkt](http://www.github.com/defunkt) &amp; jQueryProfiler is &copy; [jeresig](http://www.github.com/jeresig)
+Comet brought to you in party by [me](http://www.github.com/marksands)
