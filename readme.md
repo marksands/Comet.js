@@ -4,7 +4,7 @@ Comet
 Facebox
 -------
 
-Grab a copy of defunkt's [facebox](http://github.com/defunkt/facebox) and make sure you include it in your app.
+Grab a copy of defunkt's [facebox](http://github.com/defunkt/facebox) and make sure you include it in your app. Comet won't work without it!
 
 Script
 ------
@@ -13,7 +13,7 @@ Make sure you have this in your `<head>`:
 
 	<link rel="stylesheet" href="facebox/facebox.css" type="text/css" />
 	<script src="facebox/facebox.js"></script>
-	<script src="jQueryProfiler.js"></script>
+	<script src="comet.js"></script>
 	
 	<!-- This part's optional -->
 	<script type="text/javascript">
